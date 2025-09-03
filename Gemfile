@@ -20,6 +20,13 @@ gem 'uglifier'
 gem 'twilio-ruby', '~> 5.5.1'
 gem 'ruby-trello'
 
+# HTTP client et parsing
+gem 'httparty'
+gem 'nokogiri'
+
+# Images (conversion SVG -> PNG)
+gem 'mini_magick'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
